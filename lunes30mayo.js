@@ -1,12 +1,10 @@
 // Iteration 1: Names and Input
 let hacker1 = "Alonso"
-let hacker2 = "Alonso"
+let hacker2 = "Sainz"
 
 console.log(`The driver's name is ${hacker1}`)
 console.log(`The navigator's name is ${hacker2}`)
 
-console.log("----------------------")
-console.log("iteracion 2 a continuacion");
 
 // Iteration 2: Conditionals
 
@@ -21,10 +19,10 @@ if (hacker1.length > hacker2.length){
 
 // Iteration 3: Loops
 
-
-
-
-
-
+let just = "sdfsf";
+for (let i; i < hacker1.length; i++){
+    just = just + hacker1[i].toUpperCase() + " ";
+}
+console.log(just);
 
 
