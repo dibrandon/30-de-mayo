@@ -18,10 +18,10 @@ if (hacker1.length > hacker2.length){
 }
 
 // Iteration 3: Loops
-
-let just = "sdfsf";
-for (let i; i < hacker1.length; i++){
-    just = just + hacker1[i].toUpperCase() + " ";
+// let driver = hacker1
+let just = "";
+for (let i=0; i < hacker1.length; i++){
+    just = just + hacker1[i] + " "
 }
 console.log(just);
 
