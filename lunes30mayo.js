@@ -18,10 +18,10 @@ if (hacker1.length > hacker2.length){
 }
 
 // Iteration 3: Loops
-// let driver = hacker1
+// let driver = hacker1.toUpperCase
 let just = "";
 for (let i=0; i < hacker1.length; i++){
-    just = just + hacker1[i] + " "
+    just = just + hacker1[i].toUpperCase() + " "
 }
 console.log(just);
 
